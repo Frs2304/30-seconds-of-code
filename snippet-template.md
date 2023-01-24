@@ -2,7 +2,7 @@
 title: Await in JavaScript
 tags: function
 cover: blog_images/image.jpg
-firstSeen: 2023-01-18T05:00:00-04:00
+firstSeen: 2023-01-18T05:00:00+05:30
 ---
 
 In JavaScript, `await` is a keyword that can be used inside an `async` function to pause the execution of the function until a promise is resolved. It allows for synchronous-like code flow when working with asynchronous operations, such as API calls or reading from a file. The `await` keyword is used in front of an expression that returns a promise, and the resolved value of that promise is assigned to a variable.
