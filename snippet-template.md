@@ -15,4 +15,4 @@ async function example() {
   console.log(data);
 }
 ```
-In this example, the `fetch()` function returns a promise that resolves with a response object. The await keyword is used to pause the execution of the function until the promise is resolved, and the resolved value (the response object) is assigned to the response variable. The same process happens with the `response.json()` function, which also returns a promise that resolves with the data from the API.
+Here, the `fetch()` function returns a promise that resolves with a response object. The await keyword is used to pause the execution of the function until the promise is resolved, and the resolved value (the response object) is assigned to the response variable. The same process happens with the `response.json()` function, which also returns a promise that resolves with the data from the API.
